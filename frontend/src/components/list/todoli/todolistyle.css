@@ -1,0 +1,51 @@
+.todoli{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    overflow: auto;
+}
+.done{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+.todoli:hover{
+    color: white;
+    background-color: grey;
+}
+
+
+.todo{
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.sp{
+    padding: 0;
+}
+
+.checkbox{
+    transform: scale(3);
+    margin-right: 17px;
+}
+
+.checkbox:focus{
+    outline: 0;
+    outline-offset: 0;
+}
+
+.delete{
+    height: 35px;
+    margin-right: 10px;
+    color: red;
+}
+
+
